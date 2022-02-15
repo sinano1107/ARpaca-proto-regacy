@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <title>ARpaca proto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <div id="right-menu">
+    <div class="wrap">
+      <input id="box-button" type="button" value="Box">
+      <input id="sphere-button" type="button" value="Sphere">
+      <input id="torusKnot-button" type="button" value="torusKnot">
+    </div>
+    <div class="wrap">
+      <input id="basic-button" type="button" value="ベーシックマテリアル">
+      <input id="normal-button" type="button" value="ノーマルマテリアル">
+    </div>
+    <div class="wrap">
+      <input type="checkbox" name="wireframe" id="wireframe">
+      <label for="wireframe">ワイヤーフレーム</label>
+    </div>
+    <div class="wrap">
+      <input id="ARbutton" type="button" value="ARで表示する">
+    </div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
